@@ -1,7 +1,8 @@
 import getpass
 import random
 
-play1 = input("Welcome to Rock Paper Scissors\nPlease enter your name Player A: ")
+print("Welcome to Rock Paper Scissors!")
+play1 = input("Please enter your name Player A: ")
 play2 = input("Please enter your name Player B: ")
 
 players = [play1, play2] #Puts both players into a list so that they can be selected randomly
